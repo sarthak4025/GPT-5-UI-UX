@@ -7,8 +7,12 @@ const Header = () => {
   return (
     <div className="gpt3__header section_padding" id='home'>
       <div className="gpt3__header-content">
-        <h1 className="gradient__text">Let&apos;s Build Something amazing with GPT-3 OpenAI</h1>
-        <p>The first version of GPT was released in 2018 and contained 117 million parameters. The second version of the model, GPT-2, was released in 2019 with around 1.5 billion parameters. As the latest version, GPT-3 jumps over the last model by a huge margin with over 175 billion parameters, which is more than 100 times its predecessor and ten times more than comparable programs.</p>
+        <h1 className="gradient__text">Let&apos;s Build Something Extraordinary with GPT-5 by OpenAI</h1>
+        <p>GPT-5, released in 2025, represents the latest evolution of OpenAI’s Generative Pretrained Transformer series. 
+        It features enhanced reasoning, multi-modal understanding, and advanced agent capabilities that enable real-time 
+        task automation and intelligent collaboration. GPT-5 builds upon GPT-4’s success by offering improved accuracy, 
+        deeper contextual awareness, and the ability to handle text, image, and code seamlessly — setting a new benchmark 
+        for AI innovation.</p>
 
         <div className="gpt3__header-content__input">
           <input type="email" placeholder="Your Email Address" />
@@ -17,10 +21,10 @@ const Header = () => {
 
         <div className="gpt3__header-content__people">
           <img src={people} alt="people" />
-          <p>1,600 people requested access a visit in last 24 hours</p>
+          <p>Over 5,000 people explored GPT-5 powered experiences in the last 24 hours</p>
         </div>
-
       </div>
+
       <div className="gpt3__header-image">
         <img src={ai} alt="AI" />
       </div>

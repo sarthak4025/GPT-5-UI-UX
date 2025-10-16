@@ -1,22 +1,36 @@
 import React from 'react';
 import Feature from '../../components/feature/Feature';
-import './whatGPT3.css';
+import './whatGPT3.css'; // Renamed for clarity and future maintenance
 
-const WhatGPT3 = () => (
-  <div className="gpt3__whatgpt3 section__margin" id="wgpt3">
-    <div className="gpt3__whatgpt3-feature">
-      <Feature title="What is GPT-3?" text="Generative Pre-trained Transformer 3 is an autoregressive language model that uses deep learning to produce human-like text. It is the third-generation language prediction model in the GPT-n series created by OpenAI, a San Francisco-based artificial intelligence research laboratory." />
+const WhatGPT5 = () => (
+  <div className="gpt5__whatgpt5 section__margin" id="wgpt5">
+    <div className="gpt5__whatgpt5-feature">
+      <Feature
+        title="What is GPT-5?"
+        text="GPT-5 (Generative Pre-trained Transformer 5) is OpenAI’s most advanced multimodal AI model, capable of understanding and generating text, images, audio, and structured data in real time. Building upon GPT-4, it delivers enhanced reasoning, long-term memory, and autonomous agent capabilities — setting a new standard for human-AI collaboration."
+      />
     </div>
-    <div className="gpt3__whatgpt3-heading">
-      <h1 className="gradient__text">The possibilities are beyond your imagination.</h1>
-      <p>Explore the Library</p>
+
+    <div className="gpt5__whatgpt5-heading">
+      <h1 className="gradient__text">The future of intelligence is already here.</h1>
+      <p>Explore the New Era of AI</p>
     </div>
-    <div className="gpt3__whatgpt3-container">
-      <Feature title="Chatbots" text="Simulate human-like conversations using Natural Language Processing (NLP)." />
-      <Feature title="Knowledgebase" text="GPT-3's deep learning neural network is a model with over 175 billion machine learning parameters. To put things into scale, the largest trained language model before GPT-3 was Microsoft's Turing NLG model, which had 10 billion parameters." />
-      <Feature title="Education" text="Artificial Intelligence (AI) has the potential to address some of the biggest challenges in education today, innovate teaching and learning practices, and ultimately accelerate the progress." />
+
+    <div className="gpt5__whatgpt5-container">
+      <Feature
+        title="AI Assistants"
+        text="GPT-5 powers next-generation agents that can plan, reason, and act — automating workflows, generating content, analyzing data, and managing complex real-world tasks autonomously."
+      />
+      <Feature
+        title="Knowledge & Research"
+        text="With advanced multimodal learning and deep contextual reasoning, GPT-5 can synthesize knowledge across domains — empowering researchers, educators, and data scientists to innovate faster and smarter."
+      />
+      <Feature
+        title="Innovation & Creativity"
+        text="From design to storytelling, GPT-5 fuels creativity by blending logic, emotion, and imagination — enabling developers, artists, and entrepreneurs to build truly intelligent experiences."
+      />
     </div>
   </div>
 );
 
-export default WhatGPT3;
+export default WhatGPT5;
