@@ -1,16 +1,16 @@
 {
-  "name": "openai-gpt3",
-  "author": "Nikhil Mohite",
+  "name": "openai-gpt5",
+  "author": "Sarthak Kumar",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nkilm/openai-gpt3"
+    "url": "https://github.com/sarthak4025/GPT-5-UI-UX.git"
   },
-  "description": "Clone of GPT3 Website using Reactjs",
+  "description": "Clone of gpt5 Website using Reactjs",
   "version": "0.1.0",
   "keywords": [
     "reactjs",
     "modern ui/ux",
-    "gpt3",
+    "gpt5",
     "openai"
   ],
   "private": false,
